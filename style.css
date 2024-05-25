@@ -1,0 +1,148 @@
+
+*{
+    padding: 0;
+   }
+
+   body{
+    margin: 0;
+    background-color: whitesmoke;
+   }
+
+   .container{
+    width: 90%;
+    margin: auto ; /*make the container in the middle */
+    background-color: antiquewhite;
+
+   }
+
+   .shadow{
+    box-shadow:  0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+   }
+
+   .left{
+    width: 32%;
+    float: left;
+    background-color: white;
+    margin: 20px 0px;
+   }
+
+   .right{
+    background-color: whitesmoke;
+    float: left;
+    width:67%;
+    margin-left:1%;
+    
+   }
+
+
+   .img_container{
+    width: 100%;
+    height: 300px;
+   }
+
+    .img_container img{    
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+   }
+
+   .text h2{
+    margin-top: -40px; 
+    padding-left :15px;
+   }
+
+   .icon{
+    margin-left: 10px;
+    padding-right: 10px;
+    color:#009688;
+   }
+
+    h3 {
+    color: gray;
+   }
+   
+
+   .progress_line{
+    border-radius:90px ;
+    background-color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+   }
+   .progress , .lang-progress{
+    border-radius: 90px;
+    height: 20px;
+    font-size: 15px;
+    background-color: #009688;
+    color: white;
+   }
+
+   .skill , .languge{
+    padding-left: 10px;
+   }
+
+   .lang-progress{
+    height: 25px;
+   }
+
+   .work-expeience ,.Education {
+    margin-top: 20px;
+    background-color: white;
+   }
+    .right h3, .right p {
+    padding-left: 40px;
+   }
+
+
+    .main-icon {
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: 10px;
+    color: #009688;
+   }
+
+   span{
+    background-color: #009688;
+    color: white;
+   }
+
+   .right h2{
+    margin-top: 5px;
+    padding-top: 20px;
+    color: gray;
+    font-size: 30px;
+   }
+
+   .date{
+    color: #009688;
+   }
+
+   .clear{
+    clear: both;
+   }
+
+   footer{
+    width: 100%;
+    background-color: #009688;
+   }
+
+   footer p {
+    height: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: auto;
+   }
+
+
+   .social-icon:hover{
+    opacity: .5;
+   }
+
+   a{
+    text-decoration: none;
+    color: white;
+   }
+
+
+  
